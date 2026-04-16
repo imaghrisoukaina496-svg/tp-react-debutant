@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🚀 TP React Débutant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet réalisé dans le cadre du cours **Développement Front-End moderne avec React**.
 
-## Available Scripts
+## 🎯 Objectifs du TP
 
-In the project directory, you can run:
+Ce projet permet de comprendre les bases essentielles de React :
 
-### `npm start`
+- Créer des formulaires (contrôlés et non contrôlés)
+- Gérer l’état avec `useState`
+- Partager des données entre composants (lifting state up)
+- Utiliser le **Context API** pour gérer un état global
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧩 Fonctionnalités
 
-### `npm test`
+### ✍️ Formulaire contrôlé
+- Les champs sont liés au `state`
+- Mise à jour en temps réel avec `onChange`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📥 Formulaire non contrôlé
+- Utilisation de `useRef`
+- Récupération directe des valeurs dans le DOM
 
-### `npm run build`
+### 🌡️ Convertisseur de température
+- Saisie en Celsius
+- Affichage dynamique
+- Conversion en Fahrenheit
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👤 Gestion utilisateur (Context API)
+- Affichage du profil
+- Connexion / Déconnexion
+- Partage global de l’état utilisateur
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technologies utilisées
 
-### `npm run eject`
+- React
+- JavaScript (ES6+)
+- CSS moderne (glassmorphism + gradient UI)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Structure du projet
+src/
+│── App.js
+│── App.css
+│── FormulaireControle.js
+│── FormulaireNonControle.js
+│── TemperatureInput.js
+│── TemperatureConvertor.js
+│── UtilisateurContext.js
+│── Profil.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
+## Video Demonstratif
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://github.com/user-attachments/assets/d7b83149-19e4-4545-8381-81e312939877
 
-## Learn More
+## ▶️ Installation et lancement
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Cloner le projet
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/TON-USERNAME/tp-react-debutant.git
+```
+👩‍💻 Réalisé par
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Soukaina Imaghri
